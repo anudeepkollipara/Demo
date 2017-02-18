@@ -1,0 +1,16 @@
+{
+  "spar": {
+    "name": "slideshow-group-distribution-info",
+    "rootPath": "./src/main/resources/app",
+    "proxies": [
+      {
+        "from": "/slides/",
+        "to": "http://localhost:5000/slides/"
+      }
+    ]
+  },
+  "scripts": {
+    "jenkins-build": "echo \"placeholder for your jenkins-build script\""
+  },
+  "version": "0.0.1-SNAPSHOT"
+}
